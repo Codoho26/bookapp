@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 'bookapp'
+  graphql:
+    graphiql:
+      enabled: true
+    tools:
+      schema-parser-options:
+        introspection-enabled: false
