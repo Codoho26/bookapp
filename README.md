@@ -7,7 +7,7 @@ The complete CRUD functionality is coming soon.
 ## Project structure
 The project is developed using **Hexagonal** architecutre (see e.g. [here](https://en.wikipedia.org/wiki/Hexagonal_architecture_(software))). 
 
-<img src="https://github.com/Codoho26/bookapp/assets/104838683/b844209e-cd73-422f-ad0e-c75221cb305d" alt="Hexagonal Architecture" style="width:200px;"/>
+<img src="https://github.com/Codoho26/bookapp/assets/104838683/b844209e-cd73-422f-ad0e-c75221cb305d" alt="Hexagonal Architecture" style="width:400px;"/>
 
 For such simple projects, one might favor for a typical **technically driven** layered architecture, rather than a **domain driven** (Hexagonal) architecture.
 However, the Hexagonal structuring of the code here comes for no additional cost (and the typical Hexagonal architecture advantages) compared to layered architecture. 
