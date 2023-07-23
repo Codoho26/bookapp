@@ -13,22 +13,22 @@ This is also because a simplified Hexagonal approach has been adpoted. The packa
 ```
 └── com                                  
     └── fkh                              
-        └── **bookapp**                      
+        └── bookapp
             ├── BookApp.kt               
-            ├── **application**
-            │   └── **service**              
+            ├── application
+            │   └── service
             │       └── FetchBookService.
-            ├── **infrastructure**           
+            ├── infrastructure
             │   ├── Configs.kt           
-            │   └── **adapters**             
-            │       └── **input**            
+            │   └── adapters
+            │       └── input
             │           └── graphql      
             │               ├── FetchBook
             │               └── GraphqlEr
-            └── **model**                    
+            └── model
                 ├── Book.kt              
                 ├── DomainError.kt       
-                └── **ports**                
+                └── ports
                     ├── AuthorFinder.kt  
                     └── BookStore.kt     
 ```
