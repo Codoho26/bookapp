@@ -1,4 +1,4 @@
-This is a simple library for managing books. 
+This is a service for managing books. 
 
 ## Functionality
 This service, exposes Graphql APIs for manaing books. At the moment, only one hardcoded book with ID "f0249d34-945c-4b8d-9e68-6bafb6fae7e0" can be fetched. 
