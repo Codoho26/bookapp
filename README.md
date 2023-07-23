@@ -10,7 +10,7 @@ The project is developed using **Hexagonal** architecutre (see e.g. [here](https
 For such simple projects, one might favor for a typical **technically driven** layers structure (layered architecture), rather than a **domain driven** (Hexagonal) architecture.
 However, the Hexagonal structuring of the code here comes for no additional cost (and the typical Hexagonal architecture advantages) compared to layered architecture. 
 This is also because a simplified Hexagonal approach has been adpoted. The packages are organized as follows:
-
+```
 └── com                                  
     └── fkh                              
         └── **bookapp**                      
@@ -31,4 +31,4 @@ This is also because a simplified Hexagonal approach has been adpoted. The packa
                 └── **ports**                
                     ├── AuthorFinder.kt  
                     └── BookStore.kt     
-
+```
