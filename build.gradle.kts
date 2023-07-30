@@ -22,7 +22,13 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-graphql")
+    implementation("org.springframework.boot:spring-boot-starter-jdbc")
     implementation("io.arrow-kt:arrow-core:1.1.2")
+    implementation("org.postgresql:postgresql:42.2.23")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.14.2")
+    implementation("org.flywaydb:flyway-core:9.18.0")
+
+    runtimeOnly("com.h2database:h2:2.2.220")
 
     testImplementation("io.mockk:mockk:1.13.3")
     testImplementation("com.ninja-squad:springmockk:3.1.1")

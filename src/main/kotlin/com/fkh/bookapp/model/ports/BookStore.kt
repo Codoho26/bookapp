@@ -8,4 +8,6 @@ import com.fkh.bookapp.model.BookNotFoundError
 interface BookStore {
 
     fun find(id: BookId): Either<BookNotFoundError, Book>
+
+    fun save(book: Book)
 }

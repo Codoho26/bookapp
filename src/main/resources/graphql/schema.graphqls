@@ -8,10 +8,14 @@ type Query {
 #  ---------------------------------------- Mutations ------------------------------------------
 
 type Mutation {
-    addBook(book: BookDto!): Book
+    addBook(requestBook: BookDto!): BookResponse!
 }
 
 #  ---------------------------------------- Custom Types ------------------------------------------
+
+type BookResponse {
+    response: String!
+}
 
 type Book {
     id: String!
